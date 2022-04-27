@@ -1,0 +1,19 @@
+DESCRIPTION OF FILES:
+
+VASP INPUT FILES:
+
+"INCAR_CsPbIr_Br.txt" - VASP input file for Caesium-based perovskites
+"INCAR_FAPbBr2I.txt" - VASP input file for Formamidinium-based perovskites
+"INCAR_MAPbBr2I.txt" - VASP input file for Formamidinium-based perovskites
+"INCAR_distortion.txt" - VASP input file used for distorted structures (needed for FLAMA inputs)
+
+LAMMPS INPUT FILES:
+
+"input_NPT_lat_par_calculation" - LAMMPS input file to extract lattice parameter from NPT simulations
+"input_XRD_lammps" - LAMMPS input file to extract X-ray diffraction data
+"input_MD_lammps - main input LAMMPS file to run MD simulations including thermalization (see LAMMPS users manual for more info)
+"coordenadas.dat" - model parameters and atom coordinates. It is read by LAMMPS prior to each calculation. Should be adapted to the desired perovskite material.
+
+For help and support please contact: anta@upo.es
+
+LAMMPS is freeware downloadable from www.lammps.org
